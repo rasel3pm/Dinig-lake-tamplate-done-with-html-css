@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* <!-- hero section start --> */
+
+.hero-section {
+    padding: 50px 80px;
+    height: 100vh;
+}
+
+.hero-contant {
+    float: left;
+    width: 50%;
+    padding: 50px 30px;
+}
+
+.hero-contant h1 {
+    font-size: 70px;
+    text-transform: capitalize;
+}
+
+.hero-contant h1 span {
+    color: tomato;
+}
+
+.hero-contant p {
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.defolt-btn {
+    padding: 10px 50px;
+    background-color: #DB545A;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 45px;
+    cursor: pointer;
+}
+
+.hero-image {
+    float: left;
+    width: 50%;
+}
+
+.hero-image img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+
+/* hero section end  */
+
+
+/* breakFast section start  */
+
+.break-fast {
+    background-color: #f2f1f1;
+    height: 100vh;
+    padding: 50px 80px;
+    width: 100%;
+    position: relative;
+}
+
+.breakFast-card {
+    width: 25%;
+    background-color: #fff;
+    float: left;
+    padding: 35px;
+    margin: 50px 0 0 170px;
+    position: absolute;
+}
+
+.breakFast-card h1 {
+    font-size: 33px;
+}
+
+.breakFast-card p {
+    line-height: 25px;
+    font-size: 20px;
+    color: rgb(66, 66, 66);
+}
+
+.breakFast-image {
+    float: right;
+    width: 60%;
+}
+
+.breakFast-image img {
+    max-width: 100%;
+}
+
+.fast-food {
+    background-image: url("./image/fastfood.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+    color: #fff;
+}
+
+.fast-food-content {
+    padding: 200px 120px;
+}
+
+.fast-food-content p {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.fast-food-content h1 {
+    font-size: 70px;
+    text-transform: capitalize;
+}
+
+
+/* fast-delivery-section */
+
+.fast-delivery {
+    height: 100vh;
+    width: 100%;
+    padding: 50px 120px;
+}
+
+.fast-delivery-image {
+    float: left;
+    width: 55%;
+    text-align: right;
+}
+
+.fast-delivery-image img {
+    border-radius: 50%;
+    max-width: 90%;
+}
+
+.fast-delivery-contant {
+    width: 45%;
+    height: 90%;
+    float: right;
+    background-color: #f2f1f1;
+    margin-top: 10px;
+}
+
+.fast-delivery-card {
+    padding: 40px;
+}
+
+.fast-delivery-card h2 {
+    font-size: 42px;
+}
+
+.fast-delivery-card p {
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+
+/* footer section */
+
+.footer-main {
+    background-color: black;
+    height: 100vh;
+    padding: 80px 60px;
+}
+
+.footer-image {
+    float: left;
+    width: 50%;
+}
+
+.footer-image img {
+    max-width: 100%;
+    height: 450px;
+}
+
+.footer-contant {
+    float: left;
+    padding: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+input[type=email] {
+    padding: 10px;
+    width: 50%;
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.footer-contant-link {
+    padding-top: 30px;
+}
+
+.footer-contant-link ul {
+    list-style: none;
+    line-height: 23px;
+}
